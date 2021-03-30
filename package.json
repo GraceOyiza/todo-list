@@ -1,0 +1,29 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack --config webpack.config.js --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GraceOyiza/todo-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GraceOyiza/todo-list/issues"
+  },
+  "homepage": "https://github.com/GraceOyiza/todo-list#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "webpack": "^5.28.0"
+  }
+}
