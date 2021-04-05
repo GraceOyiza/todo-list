@@ -3,9 +3,9 @@ export default () => {
 
     const logo = document.createElement('h1');
     logo.classList.add('nav-logo');
-    logo.innerText = 'Somoyeopolis';
+    logo.innerText = 'MY TODO';
 
-    nav.appendChild(logo);
+    navlogo.appendChild(logo);
   
     return navlogo;
   };

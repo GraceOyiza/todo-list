@@ -8,14 +8,14 @@ export default () => {
   
     const navProject = document.createElement('li');
     const project = document.createElement('a');
-    project.innerText = 'PROJECT';
+    project.innerHTML = 'project <i class="fas fa-plus-square ml-4 btn-danger p-1 rounded" data-name="project" data-toggle="modal" data-target="#projectContent"></i>';
     navProject.classList.add('nav-items');
     project.id = 'project';
     navProject.appendChild(project);
   
     const navTask = document.createElement('li');
     const task = document.createElement('a');
-    task.innerText = 'CREATE TASK';
+    task.innerHTML = 'create task  <i class="fas fa-plus-square ml-4 btn-danger p-1 rounded" data-name="project" data-toggle="modal" data-target="#createTask"></i>';
     navTask.classList.add('nav-items');
     task.id = 'task';
     navTask.appendChild(task);
