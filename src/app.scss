@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+
+// nav {
+//     // height: 100vh;
+//     width: 15%;
+//     // position: fixed;
+//     // z-index: 1;
+//     // top: 0;
+//     // left: 0;
+//     background-color: red;
+//     // overflow-x: hidden;
+//     // transition: 0.5s;
+//     padding-top: 60px;
+//   }
+
+  .nav-list {
+    padding: 8px 8px 8px 32px;
+    // text-decoration: none;
+    font-size: 25px;
+    // color: white;
+    display: block;
+    transition: 0.3s;
+    // background-color: red;
+  }
+  
+//   a:hover {
+//     color: #f1f1f1;
+//   }
+
+  li {
+    list-style: none;
+  }
+
+// .navlogo{
+//    text-align: center;
+//    height: 0;
+// }
+
+.nav-logo{
+  text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
